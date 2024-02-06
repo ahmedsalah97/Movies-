@@ -1,0 +1,48 @@
+.card-result{
+    display: flex;
+    margin-bottom: 20px;
+} 
+
+.card-result .poster img , 
+.filter {
+    width: 75px;
+    height: 113px;
+    background-color: var(--white);
+    border-radius: 5px;
+    margin-right: 15px;
+    display: block;
+    color: transparent;
+
+}
+
+.card-result .info{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+.card-result .info .title{
+    font-size: 1.25rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin: 0;
+}
+.card-result .info .date{
+    font-size: 1.25rem;
+    color: var(--primary);
+    font-weight: 300;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.controls button{
+
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
